@@ -21,7 +21,7 @@ class NotificationUtilTest {
 
         val notification = NotificationUtil(context).showNotification(context, "test title", "test message")
 
-        assertEquals("test title", notification.extras.getCharSequence(Notification.EXTRA_TITLE))
+        assertEquals("test titlge", notification.extras.getCharSequence(Notification.EXTRA_TITLE))
         assertEquals("test message", notification.extras.getCharSequence(Notification.EXTRA_TEXT))
     }
 }
